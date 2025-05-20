@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | OD Tracker</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>📊 Dashboard</h2>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="dashboard.html" class="active">Dashboard</a>
+        <a href="profil.html">Profile</a>
+        <a href="settings.html">Settings</a>
+        <a href="logout.html">Logout</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <h1>Welcome to Your Dashboard</h1>
+      <div class="card-container">
+        <div class="card">
+          <h3>User Stats</h3>
+          <p>View your OD applications and status here.</p>
+        </div>
+        <div class="card">
+          <h3>Notifications</h3>
+          <p>Stay updated with your latest notifications.</p>
+        </div>
+      </div>
+
+      <!-- New Section: Student Attendance -->
+      <section class="attendance-section">
+        <h2>Student Attendance at Cultural Events</h2>
+        <table class="attendance-table">
+          <thead>
+            <tr>
+              <th>Student Name</th>
+              <th>Event Type</th>
+              <th>Date</th>
+              <th>Time</th>
+              <th>College Name</th>
+              <th>STC</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rohan Sharma</td>
+              <td>Technical</td>
+              <td>2025-05-20</td>
+              <td>10:00 AM</td>
+              <td>ABC Engineering College</td>
+              <td>STC-101</td>
+            </tr>
+            <tr>
+              <td>Priya Singh</td>
+              <td>Non-Technical</td>
+              <td>2025-05-21</td>
+              <td>2:00 PM</td>
+              <td>XYZ Arts College</td>
+              <td>STC-203</td>
+            </tr>
+            <tr>
+              <td>Amit Kumar</td>
+              <td>Technical</td>
+              <td>2025-05-22</td>
+              <td>11:30 AM</td>
+              <td>LMN Science College</td>
+              <td>STC-115</td>
+            </tr>
+            <tr>
+              <td>Neha Patel</td>
+              <td>Non-Technical</td>
+              <td>2025-05-23</td>
+              <td>3:00 PM</td>
+              <td>ABC Engineering College</td>
+              <td>STC-101</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
